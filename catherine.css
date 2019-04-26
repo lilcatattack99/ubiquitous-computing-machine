@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.port{
+  display: inline-block; 
+	border: 12px solid #E0BCE0;
+  padding: 25px;
+  margin: 10px;
+}
+
+.schoolwork{
+	color: white;
+	position: 200px absolute;
+}
+
+.imghomepage{
+margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.me{
+	color: white;
+}
+
+
+body{
+	background-image: linear-gradient(#f442cb,black );
+}
+
+h1{
+	position: relative;
+	left: 500px;
+}
+
+.homepage{
+	width: 130px;
+  display: inline-block; 
+	border: 12px groove #E0BCE0;
+  padding: 15px;
+  margin: 10px;
+}
+
+
+.aboutme{
+	width: 130px;
+	 display: inline-block;
+  border: 12px groove #E0BCE0;
+  padding: 15px;
+	position: absolute;
+	left: 300px;
+	color: deeppink;
+}
+
+.dropdown{
+	display:block;
+	color: white;
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	left: 250px;
+	top: 300px;
+}
+
+.dropdown-content{
+	display:contents;
+	background-color: purple;
+	background: radial-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,17,206,1) 35%, rgba(0,212,255,1) 100%);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	position: absolute;
+	
+}
+
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+.dropdown-content2{
+	display:contents;
+	background-color: purple;
+	background: radial-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,17,206,1) 35%, rgba(0,212,255,1) 100%);
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	position: absolute;
+}
+
+.dropdown-content2:hover .dropdown-content{
+	display:block;
+}
+
+.contact{
+	width: 130px;
+	 display: inline-block;
+  border: 12px groove #E0BCE0;
+  padding: 15px;
+  margin: 10px;
+	position: absolute;
+	left: 300px;
+	top: -20px;
+	color: deeppink;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #F253EF, 0 0 30px pink, 0 0 40px pink, 0 0 55px pink, 0 0 75px #49ff18;
+}
+
+.search{
+	width: 130px;
+	 display: inline-block;
+  border: 12px groove #E0BCE0;
+  padding: 15px;
+  margin: 10px;
+	position: absolute;
+	left: 300px;
+	top: -20px;
+	color: deeppink;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #F253EF, 0 0 30px pink, 0 0 40px pink, 0 0 55px pink, 0 0 75px #49ff18;
+}
+
+.footer{
+	color: deeppink;
+}
+
+
+
+a{
+	font-family: Cambria;
+	text-decoration: none;		
+}
+
+span{
+	font-family: Baskerville;
+	color:red;
+}
